@@ -1,0 +1,43 @@
+body{font: normal 100%/18px "Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;color: #000;}
+p,div,ul,li,span,a,img{margin: 0;padding: 0;} .cntCntr{text-align: center;}
+.container-fluid{background-color: #0089d1;min-height: 85px;}
+
+
+#table-wrapper {
+  position:relative;
+}
+#table-scroll {
+  height:500px;
+  overflow:auto;  
+  margin-top:20px;
+}
+#table-wrapper table {
+  width:100%;
+}
+
+td, th {
+border: 1px solid transparent; /* No more visible border */
+height: 30px;
+transition: all 0.3s; /* Simple transition for hover effect */
+}
+
+th {
+background: #DFDFDF; /* Darken header a bit */
+font-weight: bold;
+text-align: center; 
+border: 1px solid black;
+
+}
+
+td {
+background: #FAFAFA;
+text-align: center;
+height: 50px;
+border: 1px solid black;
+padding: 5px;
+}
+
+
+footer{background: #ccc; text-align: center;position: fixed; left: 0px;bottom: 0px; width: 100%;}
+footer ul li {display: inline-block;width: 25%;padding: 15px 0;} 
+footer a {color: #fff;font-size: 1.3em;}footer p {font-size: 1.15em;padding-bottom: 5px;letter-spacing: 1px;}
